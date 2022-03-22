@@ -1,0 +1,254 @@
+[27-Jan-2022 13:34:41 Africa/Cairo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/sizes.php on line 65
+[27-Jan-2022 13:34:41 Africa/Cairo] PHP Warning:  Use of undefined constant num - assumed 'num' (this will throw an Error in a future version of PHP) in /home/etolv/public_html/vially/sizes.php on line 212
+[27-Jan-2022 13:34:41 Africa/Cairo] PHP Warning:  Use of undefined constant limit - assumed 'limit' (this will throw an Error in a future version of PHP) in /home/etolv/public_html/vially/sizes.php on line 220
+[27-Jan-2022 13:35:25 Africa/Cairo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/sizes.php on line 65
+[27-Jan-2022 13:35:25 Africa/Cairo] PHP Warning:  Use of undefined constant limit - assumed 'limit' (this will throw an Error in a future version of PHP) in /home/etolv/public_html/vially/sizes.php on line 220
+[27-Jan-2022 13:35:56 Africa/Cairo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/sizes.php on line 65
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/etolv/public_html/vially/items_and_inventory.php on line 344
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 570
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/etolv/public_html/vially/items_and_inventory.php on line 635
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  Use of undefined constant num - assumed 'num' (this will throw an Error in a future version of PHP) in /home/etolv/public_html/vially/items_and_inventory.php on line 804
+[27-Jan-2022 14:09:17 Africa/Cairo] PHP Warning:  Use of undefined constant limit - assumed 'limit' (this will throw an Error in a future version of PHP) in /home/etolv/public_html/vially/items_and_inventory.php on line 814
+[27-Jan-2022 14:11:11 Africa/Cairo] PHP Warning:  Use of undefined constant num - assumed 'num' (this will throw an Error in a future version of PHP) in /home/etolv/public_html/vially/sales.php on line 702
+[27-Jan-2022 14:11:11 Africa/Cairo] PHP Warning:  Use of undefined constant limit - assumed 'limit' (this will throw an Error in a future version of PHP) in /home/etolv/public_html/vially/sales.php on line 713
+[27-Jan-2022 14:11:11 Africa/Cairo] PHP Warning:  Use of undefined constant num - assumed 'num' (this will throw an Error in a future version of PHP) in /home/etolv/public_html/vially/sales.php on line 1144
+[27-Jan-2022 14:11:11 Africa/Cairo] PHP Warning:  Use of undefined constant limit - assumed 'limit' (this will throw an Error in a future version of PHP) in /home/etolv/public_html/vially/sales.php on line 1155
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/etolv/public_html/vially/items_and_inventory.php on line 344
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 541
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/etolv/public_html/vially/items_and_inventory.php on line 570
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/etolv/public_html/vially/items_and_inventory.php on line 635
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  Use of undefined constant num - assumed 'num' (this will throw an Error in a future version of PHP) in /home/etolv/public_html/vially/items_and_inventory.php on line 804
+[27-Jan-2022 14:11:32 Africa/Cairo] PHP Warning:  Use of undefined constant limit - assumed 'limit' (this will throw an Error in a future version of PHP) in /home/etolv/public_html/vially/items_and_inventory.php on line 814
+[07-Feb-2022 16:03:39 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[07-Feb-2022 16:03:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_a.php on line 132
+[07-Feb-2022 16:04:47 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[07-Feb-2022 16:04:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_a.php on line 132
+[07-Feb-2022 16:09:04 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[07-Feb-2022 16:09:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_a.php on line 132
+[08-Feb-2022 13:00:27 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[08-Feb-2022 13:00:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_a.php on line 132
+[08-Feb-2022 15:23:09 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[08-Feb-2022 15:23:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_a.php on line 132
+[13-Feb-2022 13:47:12 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 13:47:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_a.php on line 132
+[13-Feb-2022 13:48:47 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 13:48:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_a.php on line 132
+[13-Feb-2022 13:51:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 13:51:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_a.php on line 132
+[13-Feb-2022 14:05:21 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:21 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:21 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:21 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:21 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:21 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:21 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:21 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:28 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:28 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:28 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:28 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:28 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:28 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:28 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:28 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:29 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:29 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:29 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:29 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:29 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:29 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:29 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:29 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:40 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:40 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:40 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:40 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:40 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:41 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:41 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:41 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:47 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:48 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:48 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:48 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:48 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:49 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:49 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:56 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:56 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:56 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:56 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:56 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:56 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:57 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130
+[13-Feb-2022 14:05:57 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/etolv/public_html/vially/Arabic/Glyphs.php on line 218
+[13-Feb-2022 14:05:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etolv/public_html/vially/Arabic/Glyphs.php:218) in /home/etolv/public_html/vially/barcode_labels_a.php on line 130

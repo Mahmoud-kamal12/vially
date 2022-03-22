@@ -1,0 +1,34 @@
+<select name="pay"   style="text-align:center;background-color:#CCC; float:right;">
+                                            <option value="1"
+                                                <?php
+                                                    if ($_POST['pay'] == "1") {
+                                                        echo ' selected="selected"';
+                                                    }
+                                                ?>
+                                            >
+                                                <?php echo"$cash_lang"; ?>
+                                            </option>
+
+                                            <option value="2"
+                                                <?php
+                                                    if ($_POST['pay'] == "2") {
+                                                        echo ' selected="selected"';
+                                                    }
+                                                ?>
+                                            >
+                                                <?php echo"$On_credit_lang"; ?>
+                                            </option>
+
+                                            <option value="3"
+                                                <?php
+                                                    if ($_POST['pay'] == "3") {
+                                                        echo ' selected="selected"';
+                                                    }
+                                                ?>
+                                            >
+
+                                            <?php echo"$check_lang"; ?>
+
+                                            </option>
+
+                                        </select>
