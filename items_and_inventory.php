@@ -380,7 +380,7 @@ VALUES ('" . $groups . "','" . $items . "','" . $date . "','" . $Quantity . "','
                             </td>
 
                         </tr>
-                        <tr style="display: none">
+                        <tr>
                             <td style="display: none" class="text-right"><lable><?php echo"$opening_balance_lang"; ?></lable></td>
                             <td style="display: none" class="text-right"><input type="number_2" name="Quantity" value="<?php if ($Quantity == "") {
                                     echo"" . $row_items_Quantity . "";
@@ -389,6 +389,7 @@ VALUES ('" . $groups . "','" . $items . "','" . $date . "','" . $Quantity . "','
                                 } ?>"  class="form-control"/>
                                 <input type="text" name="number" value="0">
                             </td>
+                            
                             <td class="text-right"><lable><?php echo"$Purchasing_price_lang";  ?></lable></td>
                             <td class="text-right">
                                 <input type="text" name="price" value="<?php if ($price == "") {
@@ -398,6 +399,7 @@ VALUES ('" . $groups . "','" . $items . "','" . $date . "','" . $Quantity . "','
                                 } ?>" class="form-control"  style="<?php echo"$error_price"; ?>" />
 
                             </td>
+                           
                             <td class="text-right"><lable><?php echo"$Selling_price_lang"; ?></lable></td>
                             <td class="text-right"><input type="text" name="Sale_price" value="<?php if ($Sale_price == "") {
                                     echo"" . $row_items_Retail_price . "";
