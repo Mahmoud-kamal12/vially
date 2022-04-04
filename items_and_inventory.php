@@ -142,6 +142,7 @@ function last_group_rank(){
                             </div>';
                 }else{
                     $groups = Trim(stripslashes($_POST['groups']));
+                    $groups = Trim(stripslashes($_POST['groups']));
                     $items = Trim(stripslashes($_POST['items']));
                     $_POST['date'] = str_replace("/", "-", $_POST['date']);
                     $date = Trim(date('Y-m-d', strtotime($_POST['date'])));
@@ -258,6 +259,16 @@ VALUES ('" . $groups . "','" . $items . "','" . $date . "','" . $Quantity . "','
                             </div>          <br />';
                                 }
                             } else {
+                                $hide = mysqli_insert_id($con);
+
+                                for ($i=0; $i < count($branches); $i++) { 
+                                    if(in_array($branches[$i] , $_POST['branches'])){
+                                        continue;
+                                    }
+                                    $sqlitems_hide = "INSERT INTO ".$branches[$i]."_items_hide (item) VALUES ('".$hide."')";
+                                    mysqli_query($con, $sqlitems_hide);
+                                }
+                                
                                 echo'<div class="alert alert-success text-right">
          '.$Data_is_saved_lang.'
 </div>          <br />';
@@ -410,8 +421,6 @@ VALUES ('" . $groups . "','" . $items . "','" . $date . "','" . $Quantity . "','
                             </td>
 
                         </tr>
-
-
 
 
                         <tr>
@@ -575,15 +584,28 @@ VALUES ('" . $groups . "','" . $items . "','" . $date . "','" . $Quantity . "','
                                                     }
                                                 }
                                                 ?>
-
-
-
-
-
                                             </select>
                                         </div>
                                     </div>
                                 <?php } ?>
+                            </td>
+
+                            <td colspan="<?php echo"$colspan"; ?>">
+                                    <div class="form-group">
+
+                                        <div class="col-lg-4 float-inp">
+                                            <spam style="vertical-align:top;"><?php echo"الفروع"; ?></spam>
+
+                                            <select name="branches[]" multiple="" class="input-small.form-control">
+                                <?php 
+                                    for ($i=0; $i < count($branches); $i++) { 
+                                        echo "<option value='".$branches[$i]."'>".$branches[$i]."</option>";
+                                    }
+                                ?>
+                            </select>
+
+                                        </div>
+                                    </div>
                             </td>
                         </tr>
                         <td class="text-right">

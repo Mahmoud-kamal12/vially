@@ -34,6 +34,7 @@ if (mysqli_connect_errno())
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
   }
 $prefix="cairo";
+$branches = ['embaba', 'kawmya' , 'moderea' , 'shibin' , 'pos1' , 'pos2' , 'pos3' , 'store'];
 include"includes/lang_ar.php";
     $expire=time()+60*60*24*30*24;
 if(isset($_POST['login'])){
