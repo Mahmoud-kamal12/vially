@@ -26,6 +26,9 @@
                         
               <li <?php if(basename($_SERVER['PHP_SELF']) =="receivings.php"){echo'class="active"';} ?>><a href="receivings.php"><?php echo"$Purchases_lang"; ?></a></li>
               <li <?php if(basename($_SERVER['PHP_SELF'])=="sales.php"){echo'class="active"';} ?>><a href="sales.php"><?php echo"$sales_lang"; ?></a></li>
+
+              <li <?php if(basename($_SERVER['PHP_SELF'])=="swap2.php"){echo'class="active"';} ?>><a href="swap2.php"><?php echo"التحويل"; ?></a></li>
+
               <li <?php if(basename($_SERVER['PHP_SELF'])=="index.php"){echo'class="active"';} ?>><a href="index.php"><?php echo"$Home_lang"; ?></a></li>
     </ul>
   </div>
