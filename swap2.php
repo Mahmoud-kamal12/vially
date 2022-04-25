@@ -1024,11 +1024,11 @@ Total='" . $Total . "',type='1',BuyPrice='" . $BuyPrice . "',sales_type='" . $sa
                                     <td style="font-size:16px;"><?php echo"اختر الفرع"; ?></td>
                                         <td>
                                             <select name="branch" id="branch">
-                                                <option value="embaba">embaba</option>
-                                                <option value="kawmya">kawmya</option>
-                                                <option value="moderea">moderea</option>
-                                                <option value="shibin">shibin</option>
-                                                <option value="cairo">cairo</option>
+                                            <?php 
+                                    for ($i=0; $i < count($branches); $i++) { 
+                                        echo "<option value='".$branches[$i]."'>".$branches[$i]."</option>";
+                                    }
+                                ?>
                                             </select>
                                         </td>
                                     </tr>

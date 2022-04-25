@@ -17,7 +17,7 @@ ini_set('display_startup_errors',1);
 
 error_reporting(-1);*/
 $activationcode=file_get_contents("activationcode.txt");
-$con=mysqli_connect("localhost","etolv_vially","Ipa~Sq#alVa[","etolv_vially");
+$con=mysqli_connect("localhost","root","","etolv_vially");
 
 $allow_num_users=400;
 $allow_num_cat=27000;
@@ -33,8 +33,8 @@ if (mysqli_connect_errno())
   {
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
   }
-$prefix="cairo";
-$branches = ['embaba', 'kawmya' , 'moderea' , 'shibin' , 'pos1' , 'pos2' , 'pos3' , 'store'];
+$prefix="embaba";
+$branches = ['cairo','embaba', 'kawmya' , 'moderea' , 'shibin' , 'pos1' , 'pos2' , 'pos3' , 'store'];
 include"includes/lang_ar.php";
     $expire=time()+60*60*24*30*24;
 if(isset($_POST['login'])){

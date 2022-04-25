@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3cef475b-3e9f-4505-a16f-2a8b93c36b30" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/error_log" beforeDir="false" afterPath="$PROJECT_DIR$/error_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/barcode_labels_a.php" beforeDir="false" afterPath="$PROJECT_DIR$/barcode_labels_a.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/reports/expenses_r.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/reports/expenses_r.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/reports/sales_r.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/reports/sales_r.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/reports/sales_returns_r.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/reports/sales_returns_r.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports.php" beforeDir="false" afterPath="$PROJECT_DIR$/reports.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sales_returns.php" beforeDir="false" afterPath="$PROJECT_DIR$/sales_returns.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/items_and_inventory.php" beforeDir="false" afterPath="$PROJECT_DIR$/items_and_inventory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/items_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/items_search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi_items.php" beforeDir="false" afterPath="$PROJECT_DIR$/multi_items.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swap2.php" beforeDir="false" afterPath="$PROJECT_DIR$/swap2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vially.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +48,10 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -75,6 +81,8 @@
       <workItem from="1645001740269" duration="8448000" />
       <workItem from="1645021284869" duration="599000" />
       <workItem from="1647940049303" duration="144000" />
+      <workItem from="1650927475078" duration="488000" />
+      <workItem from="1650928248122" duration="1547000" />
     </task>
     <servers />
   </component>

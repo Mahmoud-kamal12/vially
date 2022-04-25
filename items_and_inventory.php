@@ -260,15 +260,14 @@ VALUES ('" . $groups . "','" . $items . "','" . $date . "','" . $Quantity . "','
                                 }
                             } else {
                                 $hide = mysqli_insert_id($con);
-
                                 for ($i=0; $i < count($branches); $i++) { 
                                     if(in_array($branches[$i] , $_POST['branches'])){
                                         continue;
                                     }
+
                                     $sqlitems_hide = "INSERT INTO ".$branches[$i]."_items_hide (item) VALUES ('".$hide."')";
                                     mysqli_query($con, $sqlitems_hide);
                                 }
-                                
                                 echo'<div class="alert alert-success text-right">
          '.$Data_is_saved_lang.'
 </div>          <br />';
