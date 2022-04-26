@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cef475b-3e9f-4505-a16f-2a8b93c36b30" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/invoice.php" beforeDir="false" afterPath="$PROJECT_DIR$/invoice.php" afterDir="false" />
+    <list default="true" id="3cef475b-3e9f-4505-a16f-2a8b93c36b30" name="Changes" comment="print_item_table_report">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/item_analysis.php" beforeDir="false" afterPath="$PROJECT_DIR$/item_analysis.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/print_item_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/print_item_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,5 +102,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

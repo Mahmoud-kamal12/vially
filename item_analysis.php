@@ -78,7 +78,7 @@ $id = Trim(stripslashes($_GET['id']));
 
                         <div class="btn-group add-new">
                             <button class="btn btn-primary" style="float:right;"
-                                onclick="openPrint('<?= $url ?>')">طباعه</button>
+                                onclick="openPrint('<?= "print_item_table.php?id=".$id ?>')">طباعه</button>
                         </div>
 
                         <div class="btn-group add-new">
@@ -94,7 +94,7 @@ $id = Trim(stripslashes($_GET['id']));
                                 <table class="table table-striped table-bordered table-hover" id="table_print">
                                     <thead>
                                         <tr>
-                                            <th class="text-center" colspan="15"><?php echo "$code_lang"; ?> :
+                                            <th class="text-center" colspan="16"><?php echo "$code_lang"; ?> :
                                                 <?php echo Get_model_name($_GET['id']); ?></th>
 
                                         </tr>

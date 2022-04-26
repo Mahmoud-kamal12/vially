@@ -35,7 +35,7 @@ $id=Trim(stripslashes($_GET['id']));
                         <table class="table table-striped table-bordered table-hover" id="table_print">
                             <thead>
                             <tr>
-                                <th  class="text-center" colspan="15"><?php echo"$code_lang"; ?> : <?php echo Get_model_name($_GET['id']); ?></th>
+                                <th  class="text-center" colspan="16"><?php echo"$code_lang"; ?> : <?php echo Get_model_name($_GET['id']); ?></th>
 
                             </tr>
                             <tr>
