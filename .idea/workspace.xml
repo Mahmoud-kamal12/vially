@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cef475b-3e9f-4505-a16f-2a8b93c36b30" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/barcode_labels_a.php" beforeDir="false" afterPath="$PROJECT_DIR$/barcode_labels_a.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items_and_inventory.php" beforeDir="false" afterPath="$PROJECT_DIR$/items_and_inventory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/items_search.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multi_items.php" beforeDir="false" afterPath="$PROJECT_DIR$/multi_items.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swap2.php" beforeDir="false" afterPath="$PROJECT_DIR$/swap2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vially.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoice.php" beforeDir="false" afterPath="$PROJECT_DIR$/invoice.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +26,14 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="dfaf040a-8d92-4e8d-ac74-d53b9ca71e91" />
+        <option name="url" value="https://github.com/Mahmoud-kamal12/vially.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectId" id="21xYwnSdcff9ivSYuGJ03DKOhmu" />
   <component name="ProjectViewState">
@@ -88,5 +89,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

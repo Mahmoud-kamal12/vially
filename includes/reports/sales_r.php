@@ -51,7 +51,7 @@ if($type==null){$type="DESC";}
 ###########################################
 $from=str_replace("/", "-", $_GET['from']);
 $to=str_replace("/", "-", $_GET['to']);
-$seller = (isset($_GET['seller']) and $_GET['seller'] !== 0)?  ' saller_id = ' . $_GET['seller'] . ' and ' : ' ';
+$seller = (isset($_GET['seller']) and (int) $_GET['seller'] !== 0)?  ' saller_id = ' . $_GET['seller'] . ' and ' : ' ';
 
 $from=stripslashes(date('Y-m-d',strtotime($from)));
 $to=stripslashes(date('Y-m-d',strtotime($to)));
