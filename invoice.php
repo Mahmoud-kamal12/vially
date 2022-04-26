@@ -122,8 +122,7 @@ body
 </head>
     <?php
 	if($_GET['type']=="receivings_returns" or $_GET['type']=="receivings"){
-		$result_sales_inv = mysqli_query($con,"SELECT * FROM ".$prefix."_receivings_inv LEFT JOIN ".$prefix."_staff on ".$prefix."_staff.id = ".$prefix."_receivings_inv.saller_id where inv_id='".$_GET['id']."' limit 0,1");
-
+		$result_sales_inv = mysqli_query($con,"SELECT * FROM ".$prefix."_receivings_inv  where inv_id='".$_GET['id']."' limit 0,1");
 		}else
         {
 			$result_sales_inv = mysqli_query($con,"SELECT * FROM ".$prefix."_sales_inv LEFT JOIN ".$prefix."_staff on ".$prefix."_staff.id = ".$prefix."_sales_inv.saller_id where inv_id='".$_GET['id']."' limit 0,1");
