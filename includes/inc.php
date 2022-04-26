@@ -23,7 +23,7 @@ ini_set('display_startup_errors',1);
 
 error_reporting(-1);*/
 $activationcode=file_get_contents("activationcode.txt");
-$con=mysqli_connect("localhost","root","","etolv_vially");
+$con=mysqli_connect("localhost","etolv_vially","etolv_vially","etolv_vially");
 
 $allow_num_users=400;
 $allow_num_cat=27000;
