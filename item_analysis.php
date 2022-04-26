@@ -24,7 +24,7 @@ $id = Trim(stripslashes($_GET['id']));
 
     .scrollable {
         height: 400px;
-        overflow-y: scroll;
+        overflow-y: auto;
         border-bottom: 1px solid #ddd;
     }
 
@@ -33,6 +33,10 @@ $id = Trim(stripslashes($_GET['id']));
         z-index: 2;
         background-color: white;
         top: 0;
+    }
+
+    .panel {
+        background-color: #F5F5F5 !important
     }
     </style>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -73,12 +77,12 @@ $id = Trim(stripslashes($_GET['id']));
                     <div class="panel-heading">
 
                         <div class="btn-group add-new">
-                            <button class="btn btn-xs btn-primary" style="float:right;"
+                            <button class="btn btn-primary" style="float:right;"
                                 onclick="openPrint('<?= $url ?>')">طباعه</button>
                         </div>
 
                         <div class="btn-group add-new">
-                            <a href="<?php echo getenv("HTTP_REFERER"); ?>"><button class="btn btn-xs btn-primary"
+                            <a href="<?php echo getenv("HTTP_REFERER"); ?>"><button class="btn btn-primary"
                                     style="float:right;">عودة الى الاصناف</button></a>
                         </div>
                     </div>
@@ -154,9 +158,7 @@ $id = Trim(stripslashes($_GET['id']));
     </div>
 
     <div id="toolbar">
-        <footer>
-            <?php include "includes/scroller_container.php"; ?>
-        </footer>
+        <?php include "includes/scroller_container.php"; ?>
     </div>
     <script>
     let openPrint = (url) => {
