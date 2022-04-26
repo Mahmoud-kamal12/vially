@@ -122,17 +122,17 @@ body
 </head>
     <?php
 	if($_GET['type']=="receivings_returns" or $_GET['type']=="receivings"){
-		$result_sales_inv = mysqli_query($con,"SELECT * FROM ".$prefix."_receivings_inv INNER JOIN ".$prefix."_staff on ".$prefix."_staff.id = ".$prefix."_receivings_inv.saller_id where inv_id='".$_GET['id']."' limit 0,1");
+		$result_sales_inv = mysqli_query($con,"SELECT * FROM ".$prefix."_receivings_inv LEFT JOIN ".$prefix."_staff on ".$prefix."_staff.id = ".$prefix."_receivings_inv.saller_id where inv_id='".$_GET['id']."' limit 0,1");
 
 		}else
         {
-			$result_sales_inv = mysqli_query($con,"SELECT * FROM ".$prefix."_sales_inv INNER JOIN ".$prefix."_staff on ".$prefix."_staff.id = ".$prefix."_sales_inv.saller_id where inv_id='".$_GET['id']."' limit 0,1");
+			$result_sales_inv = mysqli_query($con,"SELECT * FROM ".$prefix."_sales_inv LEFT JOIN ".$prefix."_staff on ".$prefix."_staff.id = ".$prefix."_sales_inv.saller_id where inv_id='".$_GET['id']."' limit 0,1");
         }
 
 if(@mysqli_num_rows($result_sales_inv)>0){
 	while($row_sales_inv = mysqli_fetch_array($result_sales_inv))
   {
-	
+
 	?>
 <body <?php if($get_db_PrintingAftermarket=="1"){?> onload="window.print()" <?php } ?>>
 <div id="content_area_wrapper">
