@@ -1,5 +1,11 @@
 <?php
+
 ob_start(); // Initiate the output buffer
+
+$dir =  getcwd();
+$dir = explode('/',$dir);
+$dir = $dir[array_key_last($dir)];
+
 //ini_set('display_errors', 1);
 //error_reporting(~0);
 /* check connection */
@@ -33,7 +39,7 @@ if (mysqli_connect_errno())
   {
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
   }
-$prefix="embaba";
+$prefix=(string)$dir;
 $branches = ['cairo','embaba', 'kawmya' , 'moderea' , 'shibin' , 'pos1' , 'pos2' , 'pos3' , 'store'];
 include"includes/lang_ar.php";
     $expire=time()+60*60*24*30*24;
