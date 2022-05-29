@@ -168,7 +168,7 @@ if(isset($_GET['suspend'])){
 
 <?php
 if(isset($_GET['purshes_order'])){
-	$sql = "INSERT INTO cairo_receivings_orders (name) VALUES ('".$_GET['order_name']."')";
+	$sql = "INSERT INTO ".$prefix."_receivings_orders (name) VALUES ('".$_GET['order_name']."')";
 	mysqli_query($con,$sql);
 	$inv_id = mysqli_insert_id($con);
 

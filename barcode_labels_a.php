@@ -114,7 +114,7 @@ Orientation: “Horizontal” (Default)
   //  imagestring($image, 5, (($img_width-($code_length-($code_length/2)))/2), $img_height+20, "".$Arabic->utf8Glyphs("محمد")."", $black);
   //(($img_width-($code_length-($code_length/10)))/2)
 //	imagettftext($image, 10, 0, (($img_width-($code_length-(($code_length*($code_length/$img_width))/2)))/2), $img_height+27, $black, $font, $Arabic->utf8Glyphs($_GET['text']));
-	imagettftext($image, 8, 0, ($img_width-strlen($_GET['text']))/3.4, $img_height+23, $black, $font, $Arabic->utf8Glyphs($_GET['text']));
+//	imagettftext($image, 8, 0, ($img_width-strlen($_GET['text']))/3.4, $img_height+23, $black, $font, $Arabic->utf8Glyphs($_GET['text']));
 
 }
 	$location = 10;
