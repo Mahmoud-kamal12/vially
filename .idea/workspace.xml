@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cef475b-3e9f-4505-a16f-2a8b93c36b30" name="Changes" comment="print_item_table_report" />
+    <list default="true" id="3cef475b-3e9f-4505-a16f-2a8b93c36b30" name="Changes" comment="print_item_table_report">
+      <change beforePath="$PROJECT_DIR$/barcode_labels_a.php" beforeDir="false" afterPath="$PROJECT_DIR$/barcode_labels_a.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/receivings.php" beforeDir="false" afterPath="$PROJECT_DIR$/receivings.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
