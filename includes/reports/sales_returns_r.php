@@ -54,7 +54,7 @@ if($type==null){$type="DESC";}
 ###########################################
 $from=str_replace("/", "-", $_GET['from']);
 $to=str_replace("/", "-", $_GET['to']);
-$seller = (isset($_GET['seller']) and $_GET['seller'] !== 0)?  ' saller_id = ' . $_GET['seller'] . ' and ' : ' ';
+$seller = (isset($_GET['seller']) and $_GET['seller'] != 0)?  ' saller_id = ' . $_GET['seller'] . ' and ' : ' ';
 
 $from=stripslashes(date('Y-m-d',strtotime($from)));
 $to=stripslashes(date('Y-m-d',strtotime($to)));
@@ -88,7 +88,7 @@ $to=stripslashes(date('Y-m-d',strtotime($to)));
 	else
 		$start = 0;								//if no page var is given, set start to 0
 
-$sql = "SELECT * FROM ".$prefix."_sales_inv where  ".$seller." type='2' and left(date,10) BETWEEN '".$from."' AND '".$to."' order by $orderby $type LIMIT $start, $limit";	
+$sql = "SELECT * FROM ".$prefix."_sales_inv where  ".$seller." type='2' and left(date,10) BETWEEN '".$from."' AND '".$to."' order by $orderby $type LIMIT $start, $limit";
 
 	$result = @mysqli_query($con,$sql);
 		/* Setup page vars for display. */
@@ -227,7 +227,7 @@ else{}
     <th colspan="3" class="text-center"><?php echo"$the_total_lang"; ?></th>
     <th class="text-center"> <?php
   
-$result_get = mysqli_query($con,"SELECT Total FROM ".$prefix."_sales_inv where  ".$seller." Total<0 and left(date,10) BETWEEN '".$from."' AND '".$to."'");
+$result_get = mysqli_query($con,"SELECT Total FROM ".$prefix."_sales_inv where  ".$seller." type = '2' and Total < 0 and left(date,10) BETWEEN '".$from."' AND '".$to."'");
 if(mysqli_num_rows($result_get)>0){
 while($row_get = mysqli_fetch_array($result_get))
   {

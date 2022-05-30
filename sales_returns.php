@@ -886,6 +886,10 @@ Total='".$Total."',type='2',BuyPrice='".$BuyPrice."',sales_type='".$sales_type."
             <td colspan="6"><input type="text" name="alldiscount" value="<?php echo"".$_POST['alldiscount'].""; ?>"  style="text-align:center; background-color:#CCC; width:50px; height:20px;"/></td>
         </tr>
         <tr>
+            <td> اسم العميل <input type="text" value="" name="customer_cach_name" id="customer_cach_name" style="text-align:center; background-color:#CCC;  height:20px;"></td>
+            <td>رقم العميل <input type="text" id="customer_cach_phone" name="customer_cach_phone" value="" style="text-align:center; background-color:#CCC;  height:20px;"></td>
+        </tr>
+        <tr>
             <td colspan="6" align="center"><span style=" text-align:center; margin-right:50px;">
                                 <input type="submit" name="submit" value="<?php echo ($sumTotal+$alldiscount);?>"  style="width:120px; height:40px;" />
                               </span></td>

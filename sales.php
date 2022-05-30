@@ -308,6 +308,7 @@ SELECT item,Price,Quantity,Discount,Total,SupplierID,BuyPrice,date,type,sales_ty
                                             <span style="float:left; padding-left:20px;"><img src="images/close.png" style="border:0px;" /></span>
                                            يجب اختيار البائع
                                             </div>';
+                                        array_push($arrErrors , 'seller');
                                     }
 
                                     $customer_cach_name =  $_POST['customer_cach_name'];
@@ -888,6 +889,9 @@ Total='" . $Total . "',type='1',BuyPrice='" . $BuyPrice . "',sales_type='" . $sa
                                                         while ($row_sizes = mysqli_fetch_array($result_sizes)) {
                                                             if ($row['size'] == $row_sizes['id']) {
                                                                 echo '<option value="' . $row_sizes['id'] . '" selected >' . $row_sizes['size'] . '</option >';
+                                                                if ($dd == 'disabled'){
+                                                                    $selected = $row_sizes['id'];
+                                                                }
                                                             } else {
                                                                 echo '<option value="' . $row_sizes['id'] . '">' . $row_sizes['size'] . '</option >';
                                                             }
@@ -895,6 +899,10 @@ Total='" . $Total . "',type='1',BuyPrice='" . $BuyPrice . "',sales_type='" . $sa
                                                     }
 
                                                     echo '</select></td>';
+                                                    if ($dd == 'disabled'){
+                                                        echo '<input type="hidden" name="size' . $row['id'] . '" value = "' . $selected . '" >';
+                                                        $selected = 0;
+                                                    }
                                                 }
                                                 if ($use_colors == 1) {
                                                     echo '<td><select  class="' . $gr . '" name="color' . $row['id'] . '" style="height:25px; text-align:center;border:0px;" ' . $dd . '>';
@@ -904,12 +912,19 @@ Total='" . $Total . "',type='1',BuyPrice='" . $BuyPrice . "',sales_type='" . $sa
                                                         while ($row_colors = mysqli_fetch_array($result_colors)) {
                                                             if ($row['color'] == $row_colors['id']) {
                                                                 echo '<option value="' . $row_colors['id'] . '" selected >' . $row_colors['color'] . '</option >';
+                                                                if ($dd == 'disabled'){
+                                                                    $selected = $row_colors['id'];
+                                                                }
                                                             } else {
                                                                 echo '<option value="' . $row_colors['id'] . '">' . $row_colors['color'] . '</option >';
                                                             }
                                                         }
                                                     }
                                                     echo '</select></td>';
+                                                    if ($dd == 'disabled'){
+                                                        echo '<input type="hidden"name="color' . $row['id'] . '" value = "' . $selected . '" >';
+                                                        $selected = 0;
+                                                    }
                                                 }
                                                 echo '<td><input  class="' . $gr . '" type="text"  name="price' . $row['id'] . '" id="price' . $i . '" value="' . $row['Price'] . '"  style="width:10%; height:20px;text-align:center;border:0px;" /></td>
 							<td><input  class="' . $gr . '" type="text"  name="discount' . $row['id'] . '" id="discount' . $i . '" value="' . $row['Discount'] . '"  style="width:10%; height:20px;text-align:center;border:0px;" /></td>
