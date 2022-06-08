@@ -260,6 +260,8 @@ SELECT item,Price,Quantity,Discount,Total,SupplierID,BuyPrice,date,type,sales_ty
         $paid=trim($_POST['paid']);
         $notes=$_POST['notes'];
 			$alldiscount=$_POST['alldiscount'];
+        $customer_cach_name =  $_POST['customer_cach_name'];
+        $customer_cach_phone =  $_POST['customer_cach_phone'];
         $CheckNumber='';
         ##########مدفوعات العملاء############
         if($paid<0 or $paid==null or $paid=="")	{
@@ -270,16 +272,16 @@ SELECT item,Price,Quantity,Discount,Total,SupplierID,BuyPrice,date,type,sales_ty
 							</div>';
         }else{
             if($paid<0 or $paid==null or $paid==""){}else{
-                $sqlpayments_suppliers="INSERT INTO ".$prefix."_sales_inv (supplier, Total, date, PaymentMethod, DueDate, notes, type, discount , saller_id)
-VALUES ('".$_POST['SupplierID']."','".$paid."','".$DueDate."','".$pay."','','".$notes."','3','".$alldiscount."' , '".$saller ."')";
+                $sqlpayments_suppliers="INSERT INTO ".$prefix."_sales_inv (supplier, Total, date, PaymentMethod, DueDate, notes, type, discount , customer_name , customer_phone , saller_id)
+VALUES ('".$_POST['SupplierID']."','".$paid."','".$DueDate."','".$pay."','','".$notes."','3','".$alldiscount . "','" . $customer_cach_name . "','" .  $customer_cach_phone . "','" . $saller ."')";
                 if (!mysqli_query($con,$sqlpayments_suppliers))
                 {
                     echo"$Error_lang";
                 }else{
                     $pp=1;
 					if($alldiscount<=0){}else{
-$sqlpayments="INSERT INTO ".$prefix."_sales_inv (supplier, Total, date, PaymentMethod, DueDate, notes, type, discount ,saller_id)
-VALUES ('".$_POST['SupplierID']."','".$alldiscount."','".$DueDate."','".$pay."','','".$Cash_discount_lang."','3','".$alldiscount."' , '".$saller ."')";
+$sqlpayments="INSERT INTO ".$prefix."_sales_inv (supplier, Total, date, PaymentMethod, DueDate, notes, type, discount , customer_name , customer_phone ,saller_id)
+VALUES ('".$_POST['SupplierID']."','".$alldiscount."','".$DueDate."','".$pay."','','".$Cash_discount_lang."','3','".$alldiscount . "','" . $customer_cach_name . "','" .  $customer_cach_phone . "','" . $saller ."')";
 if (!mysqli_query($con,$sqlpayments))
   {
 	  echo"$Error_lang";
@@ -345,8 +347,8 @@ Price='".$Price."',Discount='".$Discount."',Total='".$Total."',date='".$DueDate.
             }
             ######################
 
-            if(mysqli_query($con, "INSERT INTO ".$prefix."_sales_inv(inv_id, date, Total, supplier, PaymentMethod, DueDate, CheckNumber, notes, type, paid, discount , saller_id)
-VALUES ('".$get_LastInvoiceNo."','".$DueDate."','".$inv_Total."','".$_POST['SupplierID']."','".$pay."','','".$CheckNumber."','".$notes."','2','".$paid."','".$alldiscount."' , '".$saller ."')")){
+            if(mysqli_query($con, "INSERT INTO ".$prefix."_sales_inv(inv_id, date, Total, supplier, PaymentMethod, DueDate, CheckNumber, notes, type, paid, discount ,  customer_name , customer_phone , saller_id)
+VALUES ('".$get_LastInvoiceNo."','".$DueDate."','".$inv_Total."','".$_POST['SupplierID']."','".$pay."','','".$CheckNumber."','".$notes."','2','".$paid."','".$alldiscount . "','" . $customer_cach_name . "','" .  $customer_cach_phone . "','" . $saller  ."')")){
                 $Report_Create_Invoice=1;
 ##############
                 if(mysqli_query($con, "INSERT INTO ".$prefix."_sales(Quantity, Discount, Total, SupplierID, BuyPrice, date, type, sales_type, subqty, inv_id, item, Price, size, color, user_id)
