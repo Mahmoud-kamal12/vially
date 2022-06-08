@@ -157,6 +157,8 @@ $result_get = @mysqli_query($con,"SELECT * FROM ".$prefix."_config where id='1'"
 if(@mysqli_num_rows($result_get)>0){
     while($row_get = mysqli_fetch_array($result_get))
     {
+        $open_from =$row_get['open_from'];
+        $close_to =$row_get['close_to'];
         $get_db_id=$row_get['id'];
         $get_db_CompanyName=$row_get['CompanyName'];
         $get_db_isLogo=$row_get['isLogo'];
@@ -187,6 +189,29 @@ if(@mysqli_num_rows($result_get)>0){
         $db_cat_items_show=$row_get['cat_items_show'];
     }
 }
+
+$open_from = DateTime::createFromFormat('H:i:s', $open_from);
+$close_to = DateTime::createFromFormat('H:i:s', $close_to);
+$now = DateTime::createFromFormat('H:i:s',date("H:i:s") );
+
+if ($now > $open_from && $now < $close_to) {}else{
+
+    if ($_COOKIE["user"] !== null){
+        setcookie("user", "", time()-99999999999999);
+        setcookie("pass", "", time()-99999999999999);
+        /*	function backURL($url)
+            {
+                $backURL = split("backURL=",$url);
+                return $backURL[1];
+            }*/
+        $fm=urlencode(getenv("HTTP_REFERER"));
+        $url="login.php?fm=".str_replace('http', '', $fm)."";
+        header("Location: ".$url."");
+        exit();
+    }
+
+}
+
 date_default_timezone_set(''.$get_db_TimeZone.'');
 $dateonly=date("Y-m-d");
 $items_per_page=50;
