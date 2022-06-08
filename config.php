@@ -573,6 +573,19 @@ include "includes/inc.php";
                                 <td class="text-right">
                                     <div><input type="text" name="CustomField2" value="<?php echo "" . $get_db_CustomField2 . ""; ?>" id="CustomField2" class="form-control" /></div>
                                 </td>
+                                <tr>
+                                <td class="text-right"><label><?php echo "وقت الفتح"; ?></label></td>
+                                <td class="text-right">
+                                    <div><input type="time" name="open_from" value="<?php echo "" . $open_from . ""; ?>" id="CustomField2" class="form-control" /></div>
+                                </td>
+
+
+                                <td class="text-right"><label><?php echo "وقت الاغلاق"; ?></label></td>
+                                <td class="text-right">
+                                    <div><input type="time" name="close_to" value="<?php echo "" . $close_to . ""; ?>" id="CustomField2" class="form-control" /></div>
+                                </td>
+                            </tr>
+
                             </tr>
 
                             <tr>
@@ -580,6 +593,7 @@ include "includes/inc.php";
                                     <div><input type="submit" name="Editconfig" id="Editconfig" value="<?php echo "$Modify_lang"; ?>" class="button" /></div>
                                 </td>
                             </tr>
+
                             <tr class="text-right">
                                 <td></td>
                                 <td class="text-right"></td>

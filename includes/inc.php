@@ -133,7 +133,8 @@ if(isset($_POST['Editconfig'])){
         $CompanyName=Trim(stripslashes($_POST['CompanyName']));
         $Phone=Trim(stripslashes($_POST['Phone']));
         $TimeZone=Trim(stripslashes($_POST['TimeZone']));
-
+        $open_from_store =Trim(stripslashes($_POST['open_from']));
+        $close_to_store =Trim(stripslashes($_POST['close_to']));
         $Currency=Trim(stripslashes($_POST['Currency']));
         $Language=Trim(stripslashes($_POST['Language']));
         $E_mail=Trim(stripslashes($_POST['E_mail']));
@@ -143,7 +144,7 @@ if(isset($_POST['Editconfig'])){
         $CustomField1=Trim(stripslashes($_POST['CustomField1']));
         $CustomField2=Trim(stripslashes($_POST['CustomField2']));
         $PrintingAftermarket=Trim(stripslashes($_POST['PrintingAftermarket']));
-        if(mysqli_query($con,"UPDATE ".$prefix."_config set CompanyName='".$CompanyName."',TimeZone='".$TimeZone."',Currency='".$Currency."',Language='".$Language."',E_mail='".$E_mail."',Website='".$Website."',Address='".$Address."',ReturnPolicy='".$ReturnPolicy."',Phone='".$Phone."',CustomField1='".$CustomField1."',CustomField2='".$CustomField2."',PrintingAftermarket='".$PrintingAftermarket."' WHERE id='1'"))
+        if(mysqli_query($con,"UPDATE ".$prefix."_config set open_from='".$open_from_store."' , close_to='".$close_to_store."' ,CompanyName='".$CompanyName."',TimeZone='".$TimeZone."',Currency='".$Currency."',Language='".$Language."',E_mail='".$E_mail."',Website='".$Website."',Address='".$Address."',ReturnPolicy='".$ReturnPolicy."',Phone='".$Phone."',CustomField1='".$CustomField1."',CustomField2='".$CustomField2."',PrintingAftermarket='".$PrintingAftermarket."' WHERE id='1'"))
         {
             $Edit_report='<div class="alert alert-success text-right">
 '.$Data_is_saved_lang.'
@@ -190,11 +191,11 @@ if(@mysqli_num_rows($result_get)>0){
     }
 }
 
-$open_from = DateTime::createFromFormat('H:i:s', $open_from);
-$close_to = DateTime::createFromFormat('H:i:s', $close_to);
-$now = DateTime::createFromFormat('H:i:s',date("H:i:s") );
+$open_from_check = DateTime::createFromFormat('H:i:s', $open_from);
+$close_to_check = DateTime::createFromFormat('H:i:s', $close_to);
+$now_check = DateTime::createFromFormat('H:i:s',date("H:i:s") );
 
-if ($now > $open_from && $now < $close_to) {}else{
+if ($now_check > $open_from_check && $now_check < $close_to_check) {}else{
 
     if ($_COOKIE["user"] !== null){
         setcookie("user", "", time()-99999999999999);
@@ -204,8 +205,7 @@ if ($now > $open_from && $now < $close_to) {}else{
                 $backURL = split("backURL=",$url);
                 return $backURL[1];
             }*/
-        $fm=urlencode(getenv("HTTP_REFERER"));
-        $url="login.php?fm=".str_replace('http', '', $fm)."";
+        $url="login.php";
         header("Location: ".$url."");
         exit();
     }
